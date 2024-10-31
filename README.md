@@ -1,16 +1,13 @@
-<artifact-readme>
-# WebContainer GitHub Deployer
+# WebContainer GitHub Uploader
 
-Quickly deploy your WebContainer projects to GitHub with a streamlined, multi-step deployment process.
+Quickly upload your WebContainer projects to GitHub with a single command.
 
 ## Features
-- One-click GitHub repository creation
-- Automatic token validation and repository checks
-- Smart conflict resolution for existing repositories
+- One-command upload to GitHub repositories
+- Automatic repository creation if needed
+- Preserves your project structure and files
 
 ## Usage
-1. Click the "Deploy" button in your WebContainer workspace
-2. Enter your GitHub token when prompted
-3. Follow the guided steps to complete deployment
-
-</artifact-readme>[object Object]
+1. Run `npx webcontainer-github-upload`
+2. Enter your GitHub credentials when prompted
+3. Your project will be uploaded and available on GitHub
